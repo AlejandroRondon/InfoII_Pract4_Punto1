@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1417134476 source:d:\dropbox\udea(dropbox)\informatica ii\villa 2014\lab(lennis)\informaticaii\practica4\punto1\employ.cpp
+	"Employ.h"
+	<iostream>
+
+1417134433 d:\dropbox\udea(dropbox)\informatica ii\villa 2014\lab(lennis)\informaticaii\practica4\punto1\employ.h
+	<string>
+
+1417134892 source:d:\dropbox\udea(dropbox)\informatica ii\villa 2014\lab(lennis)\informaticaii\practica4\punto1\employ1.cpp
+	"Employ1.h"
+	"Employ.h"
+
+1417135089 d:\dropbox\udea(dropbox)\informatica ii\villa 2014\lab(lennis)\informaticaii\practica4\punto1\employ1.h
+	"Employ.h"
+
+1417134905 source:d:\dropbox\udea(dropbox)\informatica ii\villa 2014\lab(lennis)\informaticaii\practica4\punto1\employ2.cpp
+	"Employ2.h"
+
+1417135078 d:\dropbox\udea(dropbox)\informatica ii\villa 2014\lab(lennis)\informaticaii\practica4\punto1\employ2.h
+	"Employ.h"
+
+1417134909 source:d:\dropbox\udea(dropbox)\informatica ii\villa 2014\lab(lennis)\informaticaii\practica4\punto1\employ3.cpp
+	"Employ3.h"
+
+1417135052 d:\dropbox\udea(dropbox)\informatica ii\villa 2014\lab(lennis)\informaticaii\practica4\punto1\employ3.h
+	"Employ.h"
+
+1417133294 source:d:\dropbox\udea(dropbox)\informatica ii\villa 2014\lab(lennis)\informaticaii\practica4\punto1\main.cpp
+	<iostream>
+

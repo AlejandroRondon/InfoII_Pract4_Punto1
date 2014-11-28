@@ -31,6 +31,15 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="Employ.cpp" />
+		<Unit filename="Employ.h" />
+		<Unit filename="Employ1.cpp" />
+		<Unit filename="Employ1.h" />
+		<Unit filename="Employ2.cpp" />
+		<Unit filename="Employ2.h" />
+		<Unit filename="Employ3.cpp" />
+		<Unit filename="Employ3.h" />
+		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
