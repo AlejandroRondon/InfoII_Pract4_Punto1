@@ -3,10 +3,12 @@
 using namespace std;
 Employ::Employ()
 {
-    cout << "Enter the name" <<endl;
+    cout << "\nCreating Employ" <<endl;
+    cout << "the name" <<endl;
     cin >> this->name;
     cout << "Enter the DNI" <<endl;
     cin >> this->dni;
+    salary = 0;
 
 }
 Employ::Employ(string name,string dni)
@@ -23,6 +25,13 @@ void Employ::Setname(string val) {
 void Employ::Setdni(string val) {
     dni = val;
     }
+
+void Employ::printEmploy(){
+    cout<<"\nName: "<< name << endl;
+    cout<<"DNI: "<< dni << endl;
+    cout<<"Salary: "<< salary << endl;
+}
+
 
 
 

@@ -9,18 +9,21 @@ class Employ
     public:
         Employ();
         Employ(string name,string dni);
+
         string Getname() { return name; }
+        string Getdni() { return dni; }
         void Setname(string);
         void Setdni(string);
+        void printEmploy();
 
-        string Getdni() { return dni; }
 
 
-        virtual int CalcSalary()=0;
+        virtual float CalcSalary()=0;
 
     protected:
         string name;
         string dni;
+        float salary;
     private:
 
 };

@@ -28,3 +28,37 @@
 1417133294 source:d:\dropbox\udea(dropbox)\informatica ii\villa 2014\lab(lennis)\informaticaii\practica4\punto1\main.cpp
 	<iostream>
 
+1421963691 source:d:\github\infoii_pract4_punto1\employ.cpp
+	"Employ.h"
+	<iostream>
+
+1421961056 d:\github\infoii_pract4_punto1\employ.h
+	<string>
+
+1421963781 source:d:\github\infoii_pract4_punto1\employ1.cpp
+	"Employ1.h"
+	"Employ.h"
+	"iostream"
+
+1421962211 d:\github\infoii_pract4_punto1\employ1.h
+	"Employ.h"
+
+1421962715 source:d:\github\infoii_pract4_punto1\employ2.cpp
+	"Employ2.h"
+
+1421963526 d:\github\infoii_pract4_punto1\employ2.h
+	"Employ.h"
+
+1421964029 source:d:\github\infoii_pract4_punto1\employ3.cpp
+	"Employ3.h"
+
+1421964252 d:\github\infoii_pract4_punto1\employ3.h
+	"Employ.h"
+
+1421963103 source:d:\github\infoii_pract4_punto1\main.cpp
+	<iostream>
+	"Employ.h"
+	"Employ1.h"
+	"Employ2.h"
+	"Employ3.h"
+

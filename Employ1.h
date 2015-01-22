@@ -5,14 +5,21 @@
 class Employ1 : public Employ
 {
     public:
-        Employ1(string name,string dni):Employ(name,dni){
+        static  float fixSalary;
+        Employ1(){
+            salary = fixSalary;
         }
-        int CalcSalary();   //from virtual class
+
+        Employ1(string name,string dni="none"):Employ(name,dni){
+            salary = fixSalary;
+        }
+        float CalcSalary();   //from virtual class
         float Getsalary();
         void Setsalary(float);
     protected:
-        float salary;
+
     private:
+
 
 };
 

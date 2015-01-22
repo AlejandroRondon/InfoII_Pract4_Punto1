@@ -6,13 +6,23 @@
 class Employ3 : public Employ
 {
     public:
-        Employ3(string name,string dni):Employ(name,dni){
+        static float base_salary;
+        Employ3(){
+            sales=0;
         }
-        int CalcSalary();   //from virtual class
+        Employ3(string name,string dni = "none", float sales = 0):Employ(name,dni){
+            salary=0;
+            this->sales = sales;
+        }
+        float CalcSalary();   //from virtual class
         float Getsalary();
         void Setsalary(float);
+        float Getsales();
+        void Setsales(float);
+
     protected:
-        float salary;
+        float sales;
+
     private:
 
 };
