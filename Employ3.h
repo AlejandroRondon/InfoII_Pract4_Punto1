@@ -21,9 +21,9 @@ class Employ3 : public Employ
         void Setsales(float);
 
     protected:
-        float sales;
 
     private:
+        float sales;
 
 };
 
